@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.1.0](https://github.com/buldozerchik/taran-server/compare/v4.0.1...v4.1.0) (2026-10-04)
+
+
+### Features
+
+* initial taran-server release ([e5875ca](https://github.com/buldozerchik/taran-server/commit/e5875cae75bc254f2bb7cdf3fb057e64b82cd828))
+* initial taran-server release ([cc270ae](https://github.com/buldozerchik/taran-server/commit/cc270aec9396fb28f8cf724b9511b9e826cc50bd))
+
 ## [4.0.1](https://github.com/buldozerchik/taran-server/compare/v4.0.0...v4.0.1) (2026-09-24)
 
 
