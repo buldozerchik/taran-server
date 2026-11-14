@@ -72,6 +72,8 @@ task clean          # удалить dist/, cover.out, cover.html
 ## Благодарности
 
 Огромное спасибо за вклад и идеи:
+
+- [@hackdiaz-dev](https://github.com/hackdiaz-dev) — за развитие [FreeTurn](https://github.com/hackdiaz-dev/free-turn-proxy), на основе которого развивается Taran.
 - [@cacggghp](https://github.com/cacggghp)
 - [@Moroka8](https://github.com/Moroka8)
 - [@alxmcp](https://github.com/alxmcp)

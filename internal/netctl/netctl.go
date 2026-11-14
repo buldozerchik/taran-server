@@ -2,6 +2,7 @@
 package netctl
 
 import (
+	"net"
 	"sync/atomic"
 	"syscall"
 )
@@ -25,4 +26,14 @@ func Apply(network, address string, c syscall.RawConn) error {
 		return (*fn)(network, address, c)
 	}
 	return nil
+}
+
+// NoMPTCP отключает MPTCP явно, в том числе в сборках gomobile,
+// где настройка godebug из go.mod может не применяться.
+func NoMPTCP(cfg *net.ListenConfig) *net.ListenConfig {
+	if cfg == nil {
+		cfg = &net.ListenConfig{}
+	}
+	cfg.SetMultipathTCP(false)
+	return cfg
 }

@@ -104,4 +104,4 @@ sudo CLIENTS_FILE=/opt/taran-server/clients.json \
 
 ## Порт
 
-Откройте внешний порт по **UDP** (при `MODE=tcp` тоже): `sudo ufw allow 53530/udp`. Скрипт делает это сам.
+Откройте внешний порт по **UDP** (при `MODE=tcp` тоже): `sudo ufw allow 53530/udp` (firewalld: `sudo firewall-cmd --permanent --add-port=53530/udp && sudo firewall-cmd --reload`). Скрипт делает это сам.
