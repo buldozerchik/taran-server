@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0](https://github.com/buldozerchik/taran-server/compare/v4.1.0...v4.2.0) (2026-11-14)
+
+
+### Features
+
+* sync FreeTurn core 4.1.5 improvements ([#3](https://github.com/buldozerchik/taran-server/issues/3)) ([2d1894d](https://github.com/buldozerchik/taran-server/commit/2d1894d6d659170592c5a5dfc58831af71284ea8))
+
 ## [4.1.0](https://github.com/buldozerchik/taran-server/compare/v4.0.1...v4.1.0) (2026-10-04)
 
 
