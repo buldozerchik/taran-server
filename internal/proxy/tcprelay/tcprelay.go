@@ -13,6 +13,7 @@ import (
 	"github.com/buldozerchik/taran-server/internal/clientsdb"
 	"github.com/buldozerchik/taran-server/internal/logx"
 	"github.com/buldozerchik/taran-server/internal/netconn"
+	"github.com/buldozerchik/taran-server/internal/netctl"
 	"github.com/buldozerchik/taran-server/internal/provider"
 	"github.com/buldozerchik/taran-server/internal/proxy/udprelay"
 	"github.com/buldozerchik/taran-server/internal/randx"
@@ -158,7 +159,7 @@ func announceReady(ctx context.Context, log logx.Logger, pool *sessionPool, numS
 }
 
 func listen(ctx context.Context, addr string, log logx.Logger) (net.Listener, error) {
-	ln, err := (&net.ListenConfig{}).Listen(ctx, "tcp", addr)
+	ln, err := netctl.NoMPTCP(nil).Listen(ctx, "tcp", addr)
 	if err != nil {
 		return nil, fmt.Errorf("tcprelay listen %s: %w", addr, err)
 	}
