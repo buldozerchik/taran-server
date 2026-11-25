@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/samosvalishe/free-turn-proxy/internal/provider/vk/internal/browserprofile"
-	"github.com/samosvalishe/free-turn-proxy/internal/provider/vk/internal/captcha"
+	"github.com/buldozerchik/taran-server/internal/provider/vk/internal/browserprofile"
+	"github.com/buldozerchik/taran-server/internal/provider/vk/internal/captcha"
 )
 
 func TestProxyPowCaptureDoesNotWaitBehindManualCaptcha(t *testing.T) {
