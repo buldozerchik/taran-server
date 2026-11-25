@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.2.1](https://github.com/buldozerchik/taran-server/compare/v4.2.0...v4.2.1) (2026-11-25)
+
+
+### Bug Fixes
+
+* captcha ([1f60316](https://github.com/buldozerchik/taran-server/commit/1f6031610d0f1df77efb1bba24a53a06fc0ac61b))
+* **captcha:** исправление синтаксиса ([a400a34](https://github.com/buldozerchik/taran-server/commit/a400a34ad368aeb5ed1e884e1cc9d9586d975cf0))
+* format manualsolver_test.go ([d40563b](https://github.com/buldozerchik/taran-server/commit/d40563b67d86f31f4437f659a92d07a426a694a2))
+
+
+### Chores
+
+* correct release metadata ([e12330f](https://github.com/buldozerchik/taran-server/commit/e12330f7d198d6a8291138ec7c64b5f90c7d1de1))
+
 ## [4.2.0](https://github.com/buldozerchik/taran-server/compare/v4.1.0...v4.2.0) (2026-11-14)
 
 
