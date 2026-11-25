@@ -1,5 +1,21 @@
 # Changelog
 
+## [4.3.0](https://github.com/buldozerchik/taran-server/compare/v4.2.1...v4.3.0) (2026-11-25)
+
+
+### Features
+
+* initial taran-server release ([e5875ca](https://github.com/buldozerchik/taran-server/commit/e5875cae75bc254f2bb7cdf3fb057e64b82cd828))
+* initial taran-server release ([cc270ae](https://github.com/buldozerchik/taran-server/commit/cc270aec9396fb28f8cf724b9511b9e826cc50bd))
+* sync FreeTurn core 4.1.5 improvements ([#3](https://github.com/buldozerchik/taran-server/issues/3)) ([2d1894d](https://github.com/buldozerchik/taran-server/commit/2d1894d6d659170592c5a5dfc58831af71284ea8))
+
+
+### Bug Fixes
+
+* captcha ([1f60316](https://github.com/buldozerchik/taran-server/commit/1f6031610d0f1df77efb1bba24a53a06fc0ac61b))
+* **captcha:** исправление синтаксиса ([a400a34](https://github.com/buldozerchik/taran-server/commit/a400a34ad368aeb5ed1e884e1cc9d9586d975cf0))
+* format manualsolver_test.go ([d40563b](https://github.com/buldozerchik/taran-server/commit/d40563b67d86f31f4437f659a92d07a426a694a2))
+
 ## [4.2.1](https://github.com/hackdiaz-dev/free-turn-proxy/compare/v4.2.0...v4.2.1) (2026-11-19)
 
 
